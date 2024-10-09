@@ -1,0 +1,15 @@
+E:\LapTrinhnet\DoAN\DoAN\bin\Debug\DoAN.exe.config
+E:\LapTrinhnet\DoAN\DoAN\bin\Debug\DoAN.exe
+E:\LapTrinhnet\DoAN\DoAN\bin\Debug\DoAN.pdb
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.csproj.AssemblyReference.cache
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.frm_DangNhap.resources
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.Properties.Resources.resources
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.csproj.GenerateResource.cache
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.csproj.CoreCompileInputs.cache
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.exe
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.pdb
+E:\LapTrinhnet\DoAN\DoAN\bin\Debug\QuanLyQuanCF.mdf
+E:\LapTrinhnet\DoAN\DoAN\bin\Debug\QuanLyQuanCF_log.ldf
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.frm_DanhMuc.resources
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.frm_ThucDon.resources
+E:\LapTrinhnet\DoAN\DoAN\obj\Debug\DoAN.frm_NhanVien.resources
