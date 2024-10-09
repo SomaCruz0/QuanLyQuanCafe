@@ -30,6 +30,7 @@ namespace DoAN
         {
             string sql = "Select * from THUCDON";
             dataGridViewthucdon.DataSource = lopchung.LoadLD(sql);
+
             string sqltd = "Select * from GHICHU";
             cbb_ghichu.DataSource = lopchung.LoadLD(sqltd);
             cbb_ghichu.ValueMember = "MAGHICHU";
@@ -112,10 +113,6 @@ namespace DoAN
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void dataGridViewthucdon_CellClick(object sender, DataGridViewCellEventArgs e)
         {

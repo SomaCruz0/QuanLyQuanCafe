@@ -63,7 +63,6 @@
             this.label1.Size = new System.Drawing.Size(120, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã Thực Đơn";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -203,7 +202,7 @@
             this.pictureBox.Image = global::DoAN.Properties.Resources.picturebox;
             this.pictureBox.Location = new System.Drawing.Point(460, 12);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(301, 405);
+            this.pictureBox.Size = new System.Drawing.Size(340, 405);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 15;
             this.pictureBox.TabStop = false;
@@ -233,7 +232,7 @@
             // 
             // txt_tenHinh
             // 
-            this.txt_tenHinh.Location = new System.Drawing.Point(518, 435);
+            this.txt_tenHinh.Location = new System.Drawing.Point(515, 457);
             this.txt_tenHinh.Name = "txt_tenHinh";
             this.txt_tenHinh.Size = new System.Drawing.Size(229, 22);
             this.txt_tenHinh.TabIndex = 18;
@@ -261,9 +260,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::DoAN.Properties.Resources._33;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1924, 501);
+            this.ClientSize = new System.Drawing.Size(1924, 559);
             this.Controls.Add(this.txt_tim);
             this.Controls.Add(this.btn_tim);
             this.Controls.Add(this.txt_tenHinh);

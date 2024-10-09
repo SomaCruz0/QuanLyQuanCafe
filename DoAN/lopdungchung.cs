@@ -13,15 +13,22 @@ namespace DoAN
     {
         SqlConnection conn = new SqlConnection();
         public lopdungchung() {
-            conn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\LapTrinhnet\DoAN\DoAN\QuanLyQuanCF.mdf;Integrated Security=True";
+            conn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\study\UngDungDotNet\DoAn\DoAN\DoAN\QuanLyQuanCF.mdf;Integrated Security=True";
         }
         public int ThemXoaSua(string sql)
         {
-            SqlCommand command = new SqlCommand(sql, conn);
-            conn.Open();
-            int kq = command.ExecuteNonQuery();
-            conn.Close();
-            return kq;
+            try
+            {
+                SqlCommand command = new SqlCommand(sql, conn);
+                conn.Open();
+                int kq = command.ExecuteNonQuery();
+                conn.Close();
+                return kq;
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
         }
         public object laygt(string sql)
         {
@@ -47,7 +54,6 @@ namespace DoAN
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
-
         }
 
     }

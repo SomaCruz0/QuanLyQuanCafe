@@ -44,5 +44,19 @@ namespace DoAN
             nhanvien.MdiParent = this;
             nhanvien.Show();
         }
+
+        private void BanAnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["frm_BanAn"] == null)
+            {
+                frm_BanAn f = new frm_BanAn();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                Application.OpenForms["frm_BanAn"].Activate();
+            }
+        }
     }
 }

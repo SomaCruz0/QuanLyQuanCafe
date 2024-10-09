@@ -54,6 +54,7 @@
             // 
             // btn_dong
             // 
+            this.btn_dong.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_dong.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_dong.Location = new System.Drawing.Point(524, 255);
             this.btn_dong.Name = "btn_dong";
@@ -141,10 +142,12 @@
             // 
             // frm_DangNhap
             // 
+            this.AcceptButton = this.btn_dangnhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAN.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.btn_dong;
             this.ClientSize = new System.Drawing.Size(603, 295);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -157,8 +160,8 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "frm_DangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.frm_DangNhap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
