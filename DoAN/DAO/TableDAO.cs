@@ -25,14 +25,14 @@ namespace DoAN.DAO
 
         public void SwitchTable(int id1, int id2)
         {
-            DataProvider.Instance.ExecuteQuery("USP_SwitchTabel @idTable1 , @idTabel2", new object[] { id1, id2 });
+            lopdungchung.Instance.ExecuteQuery("USP_SwitchTabel @idTable1 , @idTabel2", new object[] { id1, id2 });
         }
 
         public List<Table> LoadTableList()
         {
             List<Table> tableList = new List<Table>();
 
-            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetTableList");
+            DataTable data = lopdungchung.Instance.ExecuteQuery("USP_GetTableList");
 
             foreach (DataRow item in data.Rows)
             {

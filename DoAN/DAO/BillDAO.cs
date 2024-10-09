@@ -28,7 +28,7 @@ namespace DoAN.DAO
         /// <returns></returns>
         public int GetUncheckBillIDByTableID(int id)
         {
-            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.HOADON WHERE BAN = " + id + " AND TRANGTHAI = 0");
+            DataTable data = lopdungchung.Instance.ExecuteQuery("SELECT * FROM dbo.HOADON WHERE BAN = " + id + " AND TRANGTHAI = 0");
 
             if (data.Rows.Count > 0)
             {
@@ -42,13 +42,13 @@ namespace DoAN.DAO
         public void CheckOut(int id, int discount, float totalPrice)
         {
             string query = "UPDATE dbo.HOADON SET NGAYHOADON = GETDATE(), TRANGTHAI = 1, TONGTIEN = " + totalPrice + " WHERE MAHOADON = " + id;
-            DataProvider.Instance.ExecuteNonQuery(query);
+            lopdungchung.Instance.ExecuteNonQuery(query);
             string query1 = "UPDATE dbo.BAN SET TRANGTHAI = 'Trống'";
-            DataProvider.Instance.ExecuteNonQuery(query);
+            lopdungchung.Instance.ExecuteNonQuery(query);
         }
         public void InsertBill(int id)
         {
-            DataProvider.Instance.ExecuteNonQuery("exec USP_InsertBill @idTable", new object[] { id });
+            lopdungchung.Instance.ExecuteNonQuery("exec USP_InsertBill @idTable", new object[] { id });
         }
 
 
@@ -56,7 +56,7 @@ namespace DoAN.DAO
         {
             try
             {
-                return (int)DataProvider.Instance.ExecuteScalar("SELECT MAX(MAHOADON) FROM dbo.HOADON");
+                return (int)lopdungchung.Instance.ExecuteScalar("SELECT MAX(MAHOADON) FROM dbo.HOADON");
             }
             catch
             {

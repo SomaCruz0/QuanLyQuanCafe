@@ -6,15 +6,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Windows.Forms;
+using DoAN.DAO;
 
 namespace DoAN
 {
-    internal class lopdungchung
+    public class lopdungchung
     {
-        SqlConnection conn = new SqlConnection();
-        public lopdungchung() {
-            conn.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\study\UngDungDotNet\DoAn\DoAN\DoAN\QuanLyQuanCF.mdf;Integrated Security=True";
+        private static lopdungchung instance;
+        public static lopdungchung Instance
+        {
+            get { if (instance == null) instance = new lopdungchung(); return lopdungchung.instance; }
+            private set { lopdungchung.instance = value; }
         }
+        SqlConnection conn = new SqlConnection();
+        private string connectionSTR = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\QuanLyQuanCF.mdf;Integrated Security=True";
+
+        public lopdungchung()
+        {
+            conn.ConnectionString = connectionSTR;
+        }
+
+        
         public int ThemXoaSua(string sql)
         {
             try
@@ -55,6 +67,109 @@ namespace DoAN
             da.Fill(dt);
             return dt;
         }
+        public DataTable ExecuteQuery(string query, object[] parameter = null)
+        {
+            try
+            {
+                DataTable data = new DataTable();
 
+                using (SqlConnection connection = new SqlConnection(connectionSTR))
+                {
+                    connection.Open();
+
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    if (parameter != null)
+                    {
+                        string[] listPara = query.Split(' ');
+                        int i = 0;
+                        foreach (string item in listPara)
+                        {
+                            if (item.Contains('@'))
+                            {
+                                command.Parameters.AddWithValue(item, parameter[i]);
+                                i++;
+                            }
+                        }
+                    }
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                    adapter.Fill(data);
+
+                    connection.Close();
+                }
+
+                return data;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public int ExecuteNonQuery(string query, object[] parameter = null)
+        {
+            int data = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                if (parameter != null)
+                {
+                    string[] listPara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listPara)
+                    {
+                        if (item.Contains('@'))
+                        {
+                            command.Parameters.AddWithValue(item, parameter[i]);
+                            i++;
+                        }
+                    }
+                }
+
+                data = command.ExecuteNonQuery();
+
+                connection.Close();
+            }
+
+            return data;
+        }
+
+        public object ExecuteScalar(string query, object[] parameter = null)
+        {
+            object data = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                if (parameter != null)
+                {
+                    string[] listPara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listPara)
+                    {
+                        if (item.Contains('@'))
+                        {
+                            command.Parameters.AddWithValue(item, parameter[i]);
+                            i++;
+                        }
+                    }
+                }
+
+                data = command.ExecuteScalar();
+
+                connection.Close();
+            }
+
+            return data;
+        }
     }
 }

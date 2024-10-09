@@ -25,7 +25,7 @@ namespace DoAN.DAO
             List<Menu> listMenu = new List<Menu>();
 
             string query = "SELECT f.TENTHUCDON, bi.SOLUONG, f.GIA, f.GIA*bi.SOLUONG AS TONGTIEN FROM dbo.CTHD AS bi, dbo.HOADON AS b, dbo.THUCDON AS f WHERE bi.MACTHD = b.MAHOADON AND bi.MATHUCDON = f.MATHUCDON AND b.TRANGTHAI = 0 AND b.BAN = " + id;
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            DataTable data = lopdungchung.Instance.ExecuteQuery(query);
 
             foreach (DataRow item in data.Rows)
             {

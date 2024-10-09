@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\lopdungchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\frm_banan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\dao\\menudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dao\\menudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\frm_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\dto\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dto\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dao\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dao\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|d:\\study\\ungdungdotnet\\doan\\doan\\doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_banan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_banan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\doan\\frm_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{307F950A-7F74-4F61-B291-0A82775069CA}|DoAN\\DoAN.csproj|solutionrelative:doan\\frm_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAN\\Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,33 +94,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuDAO.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\MenuDAO.cs",
+              "RelativeDocumentMoniker": "DoAN\\DAO\\MenuDAO.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\MenuDAO.cs",
+              "RelativeToolTip": "DoAN\\DAO\\MenuDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:30:21.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Menu.cs",
+              "RelativeDocumentMoniker": "DoAN\\DTO\\Menu.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Menu.cs",
+              "RelativeToolTip": "DoAN\\DTO\\Menu.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:30:15.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "lopdungchung.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\lopdungchung.cs",
+              "RelativeDocumentMoniker": "DoAN\\lopdungchung.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\lopdungchung.cs",
+              "RelativeToolTip": "DoAN\\lopdungchung.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:24:37.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BillDAO.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\BillDAO.cs",
+              "RelativeDocumentMoniker": "DoAN\\DAO\\BillDAO.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\BillDAO.cs",
+              "RelativeToolTip": "DoAN\\DAO\\BillDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:56:54.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Bill.cs",
               "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Bill.cs",
               "RelativeDocumentMoniker": "DoAN\\DTO\\Bill.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Bill.cs*",
-              "RelativeToolTip": "DoAN\\DTO\\Bill.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAbAAAA",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Bill.cs",
+              "RelativeToolTip": "DoAN\\DTO\\Bill.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowBYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T17:57:08.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_BanAn.Designer.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.Designer.cs",
-              "RelativeDocumentMoniker": "DoAN\\frm_BanAn.Designer.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.Designer.cs",
-              "RelativeToolTip": "DoAN\\frm_BanAn.Designer.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAuwMAAAABaAAAA",
+              "DocumentIndex": 3,
+              "Title": "TableDAO.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\TableDAO.cs",
+              "RelativeDocumentMoniker": "DoAN\\DAO\\TableDAO.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\TableDAO.cs",
+              "RelativeToolTip": "DoAN\\DAO\\TableDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:41:55.989Z",
+              "WhenOpened": "2024-10-09T14:21:22.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_BanAn.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.cs",
+              "RelativeDocumentMoniker": "DoAN\\frm_BanAn.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.cs",
+              "RelativeToolTip": "DoAN\\frm_BanAn.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAmwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T04:27:36.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Table.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Table.cs",
+              "RelativeDocumentMoniker": "DoAN\\DTO\\Table.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Table.cs",
+              "RelativeToolTip": "DoAN\\DTO\\Table.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAtwA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:28:02.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "frm_BanAn.cs [Design]",
               "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.cs",
               "RelativeDocumentMoniker": "DoAN\\frm_BanAn.cs",
@@ -132,72 +210,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_BanAn.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.cs",
-              "RelativeDocumentMoniker": "DoAN\\frm_BanAn.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.cs",
-              "RelativeToolTip": "DoAN\\frm_BanAn.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAAwHgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T04:27:36.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TableDAO.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\TableDAO.cs",
-              "RelativeDocumentMoniker": "DoAN\\DAO\\TableDAO.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\TableDAO.cs",
-              "RelativeToolTip": "DoAN\\DAO\\TableDAO.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:21:22.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Program.cs",
               "RelativeDocumentMoniker": "DoAN\\Program.cs",
               "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Program.cs",
               "RelativeToolTip": "DoAN\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T17:54:08.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BillDAO.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\BillDAO.cs",
-              "RelativeDocumentMoniker": "DoAN\\DAO\\BillDAO.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\BillDAO.cs",
-              "RelativeToolTip": "DoAN\\DAO\\BillDAO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAABjAAAA",
+              "DocumentIndex": 10,
+              "Title": "frm_BanAn.Designer.cs",
+              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.Designer.cs",
+              "RelativeDocumentMoniker": "DoAN\\frm_BanAn.Designer.cs",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_BanAn.Designer.cs",
+              "RelativeToolTip": "DoAN\\frm_BanAn.Designer.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAuwMAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:56:54.414Z",
+              "WhenOpened": "2024-10-09T17:41:55.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataProvider.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\DataProvider.cs",
-              "RelativeDocumentMoniker": "DoAN\\DAO\\DataProvider.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DAO\\DataProvider.cs",
-              "RelativeToolTip": "DoAN\\DAO\\DataProvider.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAawC0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:23:01.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "frm_ThucDon.cs [Design]",
               "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\frm_ThucDon.cs",
               "RelativeDocumentMoniker": "DoAN\\frm_ThucDon.cs",
@@ -209,26 +248,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Procedure.sql ",
+              "DocumentIndex": 12,
+              "Title": "Procedure.sql",
               "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Procedure.sql",
               "RelativeDocumentMoniker": "DoAN\\Procedure.sql",
-              "ToolTip": "Procedure.sql ",
+              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\Procedure.sql",
+              "RelativeToolTip": "DoAN\\Procedure.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-10-09T17:09:21.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Table.cs",
-              "DocumentMoniker": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Table.cs",
-              "RelativeDocumentMoniker": "DoAN\\DTO\\Table.cs",
-              "ToolTip": "D:\\study\\UngDungDotNet\\DoAn\\DoAN\\DoAN\\DTO\\Table.cs",
-              "RelativeToolTip": "DoAN\\DTO\\Table.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAawA0AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:28:02.939Z",
               "EditorCaption": ""
             }
           ]
