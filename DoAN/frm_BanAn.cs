@@ -11,7 +11,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace DoAN
 {
     public partial class frm_BanAn : Form

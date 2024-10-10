@@ -1,99 +1,68 @@
-﻿Create proc USP_GetTableList
+﻿CREATE TABLE [dbo].[BAN] (
+    [MABAN]     INT           NOT NULL,
+    [TENBAN]    NVARCHAR (50) NULL,
+    [TRANGTHAI] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([MABAN] ASC)
+);
+go
+
+CREATE TABLE [dbo].[THUCDON] (
+    [MATHUCDON]  NVARCHAR (50) NOT NULL,
+    [TENTHUCDON] NVARCHAR (50) NULL,
+    [SOLUONG]    INT           NULL,
+    [GHICHU]     NVARCHAR (50) NULL,
+    [TENHINH]    NVARCHAR (50) NULL,
+    [GIA]        FLOAT (53)    NULL,
+    PRIMARY KEY CLUSTERED ([MATHUCDON] ASC)
+);
+go
+
+CREATE TABLE [dbo].[TAIKHOAN] (
+    [TENDN]   NVARCHAR (50) NOT NULL,
+    [MATKHAU] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([TENDN] ASC)
+);
+go
+
+CREATE TABLE [dbo].[NHANVIEN] (
+    [MANHANVIEN]  NVARCHAR (50) NOT NULL,
+    [TENNHANVIEN] NVARCHAR (50) NULL,
+    [DIENTHOAI]   NVARCHAR (50) NULL,
+    [NGAYSINH]    DATETIME      NULL,
+    [GIOITINH]    NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([MANHANVIEN] ASC)
+);
+go
+
+CREATE TABLE [dbo].[GHICHU] (
+    [MAGHICHU]  NVARCHAR (50) NOT NULL,
+    [TENGHICHU] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([MAGHICHU] ASC)
+);
+go
+
+CREATE TABLE [dbo].[HOADON] (
+    [MAHOADON]   INT        NOT NULL,
+    [NGAYHOADON] DATETIME   NULL,
+    [TRANGTHAI]  INT        NULL,
+    [BAN]        INT        NULL,
+    [TONGTIEN]   FLOAT (53) NULL,
+    PRIMARY KEY CLUSTERED ([MAHOADON] ASC),
+    CONSTRAINT [FK_HOADON_ToTable] FOREIGN KEY ([BAN]) REFERENCES [dbo].[BAN] ([MABAN])
+);
+go
+
+CREATE TABLE [dbo].[CTHD] (
+    [MACTHD]    INT           NOT NULL,
+    [MAHD]      INT           NOT NULL,
+    [MATHUCDON] NVARCHAR (50) NOT NULL,
+    [SOLUONG]   INT           NULL,
+    PRIMARY KEY CLUSTERED ([MACTHD] ASC),
+    CONSTRAINT [FK_CTHD_ToTable] FOREIGN KEY ([MAHD]) REFERENCES [dbo].[HOADON] ([MAHOADON]),
+    CONSTRAINT [FK_CTHD_ToTable_1] FOREIGN KEY ([MATHUCDON]) REFERENCES [dbo].[THUCDON] ([MATHUCDON])
+);
+go
+
+Create proc USP_GetTableList
 As Select * from dbo.BAN
 Go
-
-
-create PROC USP_InsertBill
-@idTable INT
-AS
-BEGIN
-	INSERT dbo.HOADON 
-	        (NGAYHOADON, 
-	          BAN,
-	          TRANGTHAI
-	        )
-	VALUES  ( GETDATE() , 
-	          @idTable ,
-	          0
-	        )
-END
-GO
-
-CREATE PROC [dbo].[USP_SwitchTabel]
-@idTable1 INT, @idTable2 int
-AS BEGIN
-
-	DECLARE @idFirstBill int
-	DECLARE @idSeconrdBill INT
-	
-	DECLARE @isFirstTablEmty INT = 1
-	DECLARE @isSecondTablEmty INT = 1
-	
-	
-	SELECT @idSeconrdBill = MAHOADON FROM dbo.HOADON WHERE BAN = @idTable2 AND status = 0
-	SELECT @idFirstBill = MAHOADON FROM dbo.HOADON WHERE BAN = @idTable1 AND status = 0
-	
-	PRINT @idFirstBill
-	PRINT @idSeconrdBill
-	PRINT '-----------'
-	
-	IF (@idFirstBill IS NULL)
-	BEGIN
-		PRINT '0000001'
-		INSERT dbo.HOADON
-		        ( NGAYHOADON,
-		          BAN ,
-		          TRANGTHAI
-		        )
-		VALUES  ( GETDATE() , 
-		          @idTable1 , 
-		          0  
-		        )
-		        
-		SELECT @idFirstBill = MAX(MAHOADON) FROM dbo.HOADON WHERE BAN = @idTable1 AND status = 0
-		
-	END
-
-	SELECT @isFirstTablEmty = COUNT(*) FROM dbo.CTHD WHERE MAHOADON = @idFirstBill
-	
-	PRINT @idFirstBill
-	PRINT @idSeconrdBill
-	PRINT '-----------'
-	
-	IF (@idSeconrdBill IS NULL)
-	BEGIN
-		PRINT '0000002'
-		INSERT dbo.HOADON
-		        ( NGAYHOADON,
-		          BAN ,
-		          TRANGTHAI
-		        )
-		VALUES  ( GETDATE() , 
-		          @idTable2 ,
-		          0 
-		        )
-		SELECT @idSeconrdBill = MAX(MAHOADON) FROM dbo.HOADON WHERE BAN = @idTable2 AND status = 0
-		
-	END
-	
-	SELECT @isSecondTablEmty = COUNT(*) FROM dbo.CTHD WHERE MAHOADON = @idSeconrdBill
-	
-	PRINT @idFirstBill
-	PRINT @idSeconrdBill
-	PRINT '-----------'
-
-	SELECT MACTHD INTO IDBillInfoTable FROM dbo.CTHD WHERE MAHOADON = @idSeconrdBill
-	
-	UPDATE dbo.CTHD SET MAHOADON = @idSeconrdBill WHERE MAHOADON = @idFirstBill
-	
-	UPDATE dbo.CTHD SET MAHOADON = @idFirstBill WHERE MAHOADON IN (SELECT * FROM IDBillInfoTable)
-	
-	DROP TABLE IDBillInfoTable
-	
-	IF (@isFirstTablEmty = 0)
-		UPDATE dbo.BAN SET status = N'Trống' WHERE MABAN = @idTable2
-		
-	IF (@isSecondTablEmty= 0)
-		UPDATE dbo.BAN SET status = N'Trống' WHERE MABAN = @idTable1
-END
-GO
